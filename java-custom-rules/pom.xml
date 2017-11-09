@@ -5,7 +5,7 @@
 
 	<groupId>org.sonarsource.samples</groupId>
 	<artifactId>java-custom-rules</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>sonar-plugin</packaging>
 
 	<name>SonarQube Java Custom Rules Example</name>
