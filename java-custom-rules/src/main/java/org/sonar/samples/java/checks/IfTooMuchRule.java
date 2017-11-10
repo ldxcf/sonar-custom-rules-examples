@@ -22,7 +22,7 @@ public class IfTooMuchRule extends IssuableSubscriptionVisitor{
 	public void visitNode(Tree tree){
 		int level = 1;	
 		Tree parentTree = tree.parent();
-		while(!parentTree.is(Kind.METHOD)){
+		while(parentTree!=null&&!parentTree.is(Kind.METHOD)){
 			if(parentTree.is(Kind.IF_STATEMENT)){
 				level++;
 			}
